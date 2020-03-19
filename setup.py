@@ -26,7 +26,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rus_rule_based_insult_classifier-kudep",
-    version="v0.8.0",
+    version="v0.8.1",
     author="Kuznensov Denis",
     author_email="kuznetsov.den.p@gmail.com",
     keywords=["Russian Language", "rule-based insult classifier", "NLP"],
