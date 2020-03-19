@@ -34,12 +34,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kudep/rus_rule_based_insult_classifier",
-    download_url="https://github.com/kudep/rus_rule_based_insult_classifier/archive/v0.8.0.tar.gz",
     include_package_data=True,
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
