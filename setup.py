@@ -34,6 +34,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kudep/rus_rule_based_insult_classifier",
+    include_package_data=True,
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
