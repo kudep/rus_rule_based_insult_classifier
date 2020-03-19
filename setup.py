@@ -26,14 +26,15 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rus_rule_based_insult_classifier-kudep",
-    version="0.8.0",
+    version="v0.8.0",
     author="Kuznensov Denis",
     author_email="kuznetsov.den.p@gmail.com",
-    keywords=['Russian Language', 'rule-based insult classifier', 'NLP'],
+    keywords=["Russian Language", "rule-based insult classifier", "NLP"],
     description="Rule-based insult classifier for the Russian language",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kudep/rus_rule_based_insult_classifier",
+    download_url="https://github.com/kudep/rus_rule_based_insult_classifier/archive/v0.8.0.tar.gz",
     include_package_data=True,
     packages=setuptools.find_packages(),
     classifiers=[
